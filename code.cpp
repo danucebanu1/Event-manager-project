@@ -18,8 +18,14 @@ void registeer();
 void login();
 void visitor_menu();
 void organiser_menu();
+void organiser_main();
 
 string username , password , company , name , surname ;
+
+void organiser_main()
+{
+    cout<<"Upcoming events"
+}
 
 void registeer()
 {
@@ -123,7 +129,7 @@ int main()
     int x;
     system("clear");
     cout<<white;
-    cout<<" GUESS event manager"<<endl;
+    cout<<"GUESS event manager"<<endl;
     cout<<endl;
     cout<<"Are you a visitor or an event organiser?"<<endl;
     cout<<"[1] Visitor"<<endl;
